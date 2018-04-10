@@ -13,3 +13,4 @@ def move(array, index, value = 'X')
   index = input_to_index
   array[index] = value
 end
+
