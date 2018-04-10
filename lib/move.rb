@@ -10,7 +10,7 @@ def input_to_index(user_input)
 
 end
 
-def move(array, index, value = "X")
-  index = input_to_index(user_input)
-  array[index] = value
+def move(array, position, character = "X")
+  position = input_to_index(board)
+  array[position] = value
 end
